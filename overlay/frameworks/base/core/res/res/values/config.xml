@@ -347,6 +347,13 @@
          Off by default, since the framebuffer readback used to implement the
          fading edges is prohibitively expensive on most GPUs. -->
     <bool name="config_ui_enableFadingMarquee">true</bool>
+	
+	<!-- Enable Night display, which requires HWC 2.0. -->
+    <bool name="config_nightDisplayAvailable">true</bool>
+	
+	<!-- Boolean indicating whether the HWC setColorTransform function can be performed efficiently
+         in hardware. -->
+    <bool name="config_setColorTransformAccelerated">true</bool>
 
     <!-- Exempt ImsService from privacy (location) indicators -->
     <string name="config_systemTelephonyPackage" translatable="false">com.qualcomm.qti.cne</string>
