@@ -372,5 +372,5 @@
     <string name="config_appsNotReportingCrashes">com.google.android.tts</string>
 
     <!-- Boost Framework -->
-    <bool name="config_supportsBoostFramework">false</bool>
+    <bool name="config_supportsBoostFramework">true</bool>
 </resources>
